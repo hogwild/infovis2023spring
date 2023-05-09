@@ -10,39 +10,58 @@ There are 30 points for 7 evaluation questions. Click the **Review the work** to
 - Acceptable - 1/3 of the points (if applicable)
 - No good - no points
 
-Please complete the review by this Friday (May 12), Shanghai time. Thank you.
+Please complete the review by this Wednesday (May 10), Shanghai time. Thank you.
 
-Also, you may [click here](https://docs.google.com/spreadsheets/d/1vc1nMsNyUHo0PTrQ5dQWfy8lMZJwz4pnNeK5VVnkSWU/edit?usp=sharing){:target="_blank"} to get the whole list of projects. 
+Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrricBKRcA_XVICOFhwBy9pWnBaceYFlO64/edit?usp=sharing){:target="_blank"} to get the whole list of projects. 
 
-## [Team 1: Video Games Sales Analysis](./team1/index.html){:target="_blank"} 
-- Authors: Ran Xu, Yuchen Zhou
-- [Review the work](https://forms.gle/AnoaKrfpB1MJMBcFA){:target="_blank"} 
+## [Team 1: Market Overview Of Popular Video Game Platforms](./team1/index.html){:target="_blank"} 
+- Authors: Xiaoyi Guan, Yu Wang
+- [Review the work](){:target="_blank"} 
 
-## [Team 2: Does Vaccination Work?](./team2/index.html){:target="_blank"} 
-- Authors: Shixuan Zheng, Scott Ye, Chengyu Zhang 
-- [Review the work](https://forms.gle/k4E8zAZ87NQyvtj28){:target="_blank"}
+## [Team 2: Understanding Global Suicide Trends](./team2/index.html){:target="_blank"} 
+- Authors: Chengang Zhang, Summer Xiao 
+- [Review the work](){:target="_blank"}
 
-## [Team 3: Where To Find The Protein?](./team3/index.html){:target="_blank"} 
-- Authors: Ivana Li, Tianqing Yu 
-- [Review the work](https://forms.gle/QqkaqkmVqa9CjbPh7){:target="_blank"}
+## [Team 3: What Are The Important Factors For Regional Economic Growth? ](./team3/index.html){:target="_blank"} 
+- Authors: Alex Zhang, Kaixin Mao, Yunzhe Sun 
+- [Review the work](){:target="_blank"}
 
-## [Team 4: An Visualization of World Cup](./team4/main.html){:target="_blank"} 
-- Authors: Zhenwen Zhang, Haohai Pang, Xiangjian Wu
-- [Review the work](https://forms.gle/TqzQG8DjAWLujmHDA){:target="_blank"}
+## [Team 4: Can Owning A Pet Boost Your Mental Health? ](./team4/main.html){:target="_blank"} 
+- Authors: Ruiqi Xue, Yimeng Zhang, Yunzhe Sun
+- [Review the work](){:target="_blank"}
 
-## [Team 5: Why People Die?](./team5/index.html){:target="_blank"} 
-- Authors: Zhinuo Wang, Hongjin Zhu 
-- [Review the work](https://forms.gle/LKe4Cnh6ZeHqX89e6){:target="_blank"}
+## [Team 5: When MBTI Meets Spotify](./team5/index.html){:target="_blank"} 
+- Authors: Jade Zhou, Shan Lu, Tian Jin 
+- [Review the work](){:target="_blank"}
 
-## [Team 6: Regional Gross Product And Garbage Disposal Volume In China](./team6/index.html){:target="_blank"} 
-- Authors: Penghao Weng, Yishan Chen
-- [Review the work](https://forms.gle/HsWPUVVbCAEXS6AfA){:target="_blank"}
+## [Team 6: The Los Angeles Crime Data Visualization from 2020 to Present](./team6/index.html){:target="_blank"} 
+- Authors: Junyan Feng, Shangyuan Ni, Yanqi Chen 
+- [Review the work](){:target="_blank"}
 
-## [Team 7: Understanding Football Success Across Regions](./team7/index.html){:target="_blank"} 
-- Authors: Riley Whitt, Yi Wang
-- [Review the work](https://forms.gle/rZmNTSd6R1ZfjeXt5){:target="_blank"}
+## [Team 7: The Evolution of Movie Genre: An Interactive Visualization](./team7/index.html){:target="_blank"} 
+- Authors: Leyi Guo, Xintong Xie
+- [Review the work](){:target="_blank"}
 
-## [Team 8: Global Pandemics: Infection, Death, And Vaccination](./team8/index.html){:target="_blank"} 
-- Authors: Alivn Mo, Xingchen Cao
-- [Review the work](https://forms.gle/NsFxBcTMQNCNizNr5){:target="_blank"}
+## [Team 8: Internet Access Disparities and Its Demographic Implications World Internet Users & GDP per Capita from 1980-2020](./team8/index.html){:target="_blank"} 
+- Authors: Xiaochen Lu, Xingyu Guo
+- [Review the work](){:target="_blank"}
 
+## [Team 9: Visualization of Child Mortality Rate Around the World](./team9/index.html){:target="_blank"} 
+- Authors: Skyler Chen, Ziying Yang
+- [Review the work](){:target="_blank"}
+
+## [Team 10: Story of EPL Teams Leicester's Road to Glory and Becoming the Premier League Champion](./team10/index.html){:target="_blank"} 
+- Authors: Ming Xuan Wu
+- [Review the work](){:target="_blank"}
+
+## [Team 11: A Visualized Investigation into LPL & LCK 2023 Spring Playoffs Statistics](./team10/index.html){:target="_blank"} 
+- Authors: Ming Xuan Wu
+- [Review the work](){:target="_blank"}
+
+## [Team 12: Visualizing International Trade Flow between G20 Countries 2000-2020](./team10/index.html){:target="_blank"} 
+- Authors: Dennis Hu, Yuexin Zhu, Zijie (Ricardo) Hu
+- [Review the work](){:target="_blank"}
+
+## [Team 13: Interpreting the Population and GDP Growth Rate of India and China](./team10/index.html){:target="_blank"} 
+- Authors: Harsh Tambi, Rao Ali Khan, Syed Ali Haider
+- [Review the work](){:target="_blank"}
