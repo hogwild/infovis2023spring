@@ -54,14 +54,14 @@ Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrric
 - Authors: Ming Xuan Wu
 - [Review the work](){:target="_blank"}
 
-## [Team 11: A Visualized Investigation into LPL & LCK 2023 Spring Playoffs Statistics](./team10/index.html){:target="_blank"} 
+## [Team 11: A Visualized Investigation into LPL & LCK 2023 Spring Playoffs Statistics](./team11/index.html){:target="_blank"} 
 - Authors: Ming Xuan Wu
 - [Review the work](){:target="_blank"}
 
-## [Team 12: Visualizing International Trade Flow between G20 Countries 2000-2020](./team10/index.html){:target="_blank"} 
+## [Team 12: Visualizing International Trade Flow between G20 Countries 2000-2020](./team12/index.html){:target="_blank"} 
 - Authors: Dennis Hu, Yuexin Zhu, Zijie (Ricardo) Hu
 - [Review the work](){:target="_blank"}
 
-## [Team 13: Interpreting the Population and GDP Growth Rate of India and China](./team10/index.html){:target="_blank"} 
+## [Team 13: Interpreting the Population and GDP Growth Rate of India and China](./team13/index.html){:target="_blank"} 
 - Authors: Harsh Tambi, Rao Ali Khan, Syed Ali Haider
 - [Review the work](){:target="_blank"}
