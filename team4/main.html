@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        /* On mouse hover, lighten state color */
+        path:hover {
+            fill-opacity: .7;
+        }
+
+        /* Style for Custom Tooltip */
+        div.tooltip {   
+            position: absolute;           
+            text-align: center;           
+            max-width: 100px;                  
+            max-height: 60px;                 
+            padding: 2px;             
+            font: 18px sans-serif;        
+            background: white;   
+            border: 0px;      
+            border-radius: 8px;           
+            pointer-events: none;         
+        }
+                
+        /* Legend Font Style */
+        body {
+            font: 11px sans-serif;
+            background-color: #f9e5f1;
+            margin-left: 70px;
+            /* cursor: cell; */
+            cursor: url('https://p1.hiclipart.com/preview/282/430/472/mega-pusheen-cat-pusheen-s-paw-illustration.jpg') , auto !important;
+        }
+                
+        /* Legend Position Style */
+        .legend {
+            position:absolute;
+            left:800px;
+            top:350px;
+        }
+        .arc text {
+                    font: 10px sans-serif;
+                    text-anchor: middle;
+                }
+
+        .arc path {
+            stroke: #fff;
+        }
+
+        /* ---------------------------TEXT SETTING  ---------------------------*/
+        .title {
+            fill: teal;
+            font-weight: bold;
+        }
+        .headline {
+            font-size: 32px; /* adjust as needed */
+            font-family:"Comic Sans MS", sans-serif; /* choose a font that fits your design */
+            color: #333; /* choose a color that contrasts well with your background */
+            font-weight: bold; /* make the text bold to help it stand out */
+            line-height: 1.2; /* adjust the line-height to improve readability */
+            margin: 0; /* remove any default margins */
+            display: flex; 
+            justify-content: center;
+            background-color: #f4cce3;
+            }
+        .second_layer_headline {
+            font-size: 20px; /* adjust as needed */
+            font-family:"Comic Sans MS", sans-serif; /* choose a font that fits your design */
+            color: #333; /* choose a color that contrasts well with your background */
+            font-weight: bold; /* make the text bold to help it stand out */
+            line-height: 1.2; /* adjust the line-height to improve readability */
+            margin: 0; /* remove any default margins */
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 10px;
+            }
+        .third_layer_headline {
+            font-size: 15px; /* adjust as needed */
+            font-family:"Comic Sans MS", sans-serif; /* choose a font that fits your design */
+            color: #333; /* choose a color that contrasts well with your background */
+            font-weight: bold; /* make the text bold to help it stand out */
+            line-height: 1.2; /* adjust the line-height to improve readability */
+            margin: 0; /* remove any default margins */
+            display: flex; 
+            justify-content: center;
+            }
+        .tree_text {
+            font-size: 15px; /* adjust as needed */
+            font-family:"Comic Sans MS", sans-serif; /* choose a font that fits your design */
+            color: #333; /* choose a color that contrasts well with your background */
+            font-weight: bold; /* make the text bold to help it stand out */
+            line-height: 1.2; /* adjust the line-height to improve readability */
+            margin: 0; /* remove any default margins */
+            display: flex; 
+            justify-content: left;
+        }
+        .members{
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex; 
+            justify-content: center;
+            margin-bottom: 20px;
+            }
+            .first-div {
+                order: 1;
+                margin-left: 10px;
+                }
+            .second-div {
+                order: 2;
+                margin-top: 80px;
+                margin-right: 80px;
+                }
+        
+    </style>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>var d3v4 = window.d3;window.d3 = null </script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3-path.v2.min.js"></script>
+    <script src="https://d3js.org/d3-shape.v2.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-array.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v2.min.js"></script> 
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone/babel.js"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+</head>
+
+
+<body>  
+<div class="top-row">
+    <h1 class="headline">Can Owning A Pet Boost Your Mental Health?</h1>
+    <h3 class="members">Team members: Ruiqi Xue (rx525), Yimeng Zhang (ymz213), Yunzhe Sun (sy2825)</h6>
+</div>
+<!-- <div>d3 variable version: <span id="d3VarVer"></span></div>
+<div>d3v4 variable version: <span id="d3v4VarVer"></span></div> -->
+<div class="container">
+    <div class="first-div" >
+        <g class="second_layer_headline">Want to know how many people own pets in this state? (%)</g>
+        <br />
+        <g class="third_layer_headline">Move your mouse on the map to check it out!</g>
+        <br />
+        <g class="third_layer_headline">*percentage of pet owners in the selected state</g>
+        <svg id='usmap' width=900 height=450 ></svg>
+    </div>
+    <div class="second-div">
+        <g class="second_layer_headline">Is it a dog state or a cat state?</g>
+        <br />
+        <g class="third_layer_headline">*percentage of dog/cat owners in the selected state</g>
+        <br />
+        <svg id='piechart' width=500 height=200 ></svg>
+        <br />
+        <br />
+        <svg id='piechart_cat' width=500 height=200></svg>
+    </div>
+</div>
+<div class="container">
+    
+    <div class="first-div">
+        <g class="second_layer_headline">How is owning pets related to mental health at state level?</g>
+        <div id="dropdown1-div"> Types of Mental Health Index: </div>
+        <div id="dropdown2-div"> Types of Pet: </div>
+        <svg id='scatterplot' width=400 height=300 ></svg>
+    </div>
+    <div class="second-div">
+        <img src="https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg" width="420" height="300" id="figure1">
+   </div>
+    <!-- <img src=" https://png.pngtree.com/png-clipart/20201225/ourmid/pngtree-black-and-white-cat-paws-png-image_2587135.jpg" width="620" height="400" id="figure1"> -->
+</div>
+   
+<script type="text/javascript">
+
+//Width and height of map
+var width_map = 960;
+var height_map = 500;
+var lowColor = '#d9d2e9'
+var highColor = '#450e84'
+
+// D3 Projection
+var projection = d3v4.geoAlbersUsa()
+                .translate([width_map / 2, height_map / 2]) // translate to center of screen
+                .scale([1000]); // scale things down so see entire US
+
+// Define path generator
+var path = d3v4.geoPath() // path generator that will convert GeoJSON to SVG paths
+            .projection(projection); // tell path generator to use albersUsa projection
+
+//Create SVG element and append map to the SVG
+var svg_map = d3v4.select("#usmap")
+                .append("svg")
+                .attr("width", width_map)
+                .attr("height", height_map);
+
+var div = d3.select("body")
+            .append("div")   
+            .attr("class", "tooltip")               
+            .style("opacity", 0);
+
+const svg_scatter = d3.select('#scatterplot');
+
+// Load in states data
+d3v4.csv("https://hogwild.github.io/infovis2023spring/team4/data_state.csv", function(data) {
+	var dataArray = [];
+	for (var d = 0; d < data.length; d++) {
+		dataArray.push(parseFloat(data[d].percAllPets))
+	}
+	var minVal = d3v4.min(dataArray)
+	var maxVal = d3v4.max(dataArray)
+	var ramp = d3v4.scaleLinear().domain([minVal,maxVal]).range([lowColor,highColor])
+
+
+    data.forEach(d => {
+        d.percAllPets=+d.percAllPets;
+        d.percDogOwners=+d.percDogOwners;
+        d.percCatOwners=+d.percCatOwners;
+        d.adult_AMI = +d.adult_AMI;
+        d.adult_abuse = +d.adult_abuse;
+        d.adult_suicide = +d.adult_suicide;
+        d.youth_MDE = +d.youth_MDE;
+        d.youth_abuse= + d.youth_abuse;
+        d.youth_severeMDE = +d.youth_severeMDE;
+        });
+        
+        var select_index = d3v4.select("#dropdown1-div")
+                    .append("select")
+                    // .append("select")
+                    .attr("id", "dropdown1-select");
+        // Create the 2nd dropdown menu
+        var select_pet = d3v4.select("#dropdown2-div")
+                        .append("select")
+                        .attr("id", "dropdown2-select"); 
+        initial_map(data,select_index,select_pet);
+
+  // Load GeoJSON data and merge with states data
+    d3v4.json("https://hogwild.github.io/infovis2023spring/team4/us-states.json", function(json) {
+
+        // Loop through each state data value in the .csv file
+        for (var i = 0; i < data.length; i++) {
+            // Grab State Name
+            var dataState = data[i].state;
+
+            // Grab data value 
+            var dataValue = data[i].percAllPets;
+            var dataDog = data[i].percDogOwners;
+            var dataCat = data[i].percCatOwners;
+            // Find the corresponding state inside the GeoJSON
+            for (var j = 0; j < json.features.length; j++) {
+                    var jsonState = json.features[j].properties.name;
+
+                    if (dataState == jsonState) {
+
+                        // Copy the data value into the JSON
+                        json.features[j].properties.value = dataValue
+                        json.features[j].properties.dog = dataDog
+                        json.features[j].properties.cat = dataCat
+                        // json.features[j].properties.cat = dataCat
+                        // Stop looking through the JSON
+                        break;
+                }
+            }
+        }
+
+    // Bind the data to the SVG and create one path per GeoJSON feature
+    svg_map.selectAll("path")
+            .data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .style("stroke", "#fff")
+            .style("stroke-width", "1")
+            .style("fill", function(d) { 
+                    if (d.properties.value > 10) {
+                    return ramp(d.properties.value)}
+                    else {return '#eeeeee'}}
+                )
+            .on("mouseover", function(d) {
+                updateScatterplot();
+                var selectedState= d.properties.name; // Retrive the value of selected data for the use of SCATTERPLOT
+                map_scatter(data,selectedState,select_index,select_pet);
+               
+                // scatter_type(data,selectedState,selectedDataType_index,selectedDataType_pet);
+
+                let dogpie_list = [d.properties.dog, 100-d.properties.dog]
+                let catpie_list = [d.properties.cat, 100-d.properties.cat]
+                let name = ['Dogs','']
+                let name_cat = ['Cats', '']
+                // console.log(dogpie_list)
+                
+                var svg_pie = d3v4.select("#piechart"),
+                    width_pie = svg_pie.attr("width"),
+                    height_pie = svg_pie.attr("height"),
+                    radius_pie = Math.min(width_pie, height_pie) / 2,
+                    g_pie = svg_pie.append("g").attr("transform", "translate(" + width_pie / 2 + "," + height_pie / 2 + ")")
+
+                var Piecolor = d3v4.scaleOrdinal(["#8fce00","#eeeeee"]);
+
+                // Generate the pie
+                var pie = d3v4.pie();
+
+                // Generate the arcs
+                var arc = d3v4.arc()
+                            .innerRadius(0)
+                            .outerRadius(radius_pie);
+
+                //Generate groups
+                var arcs = g_pie.selectAll("arc")
+                            .data(pie(dogpie_list))
+                            .enter()
+                            .append("g")
+                            .attr("class", "arc")
+                    
+                var label_pie = d3v4.arc()
+                        .outerRadius(radius_pie)
+                        .innerRadius(radius_pie - 80);
+
+                //Draw arc paths
+                arcs.append("path")
+                    .attr("fill", function(d, i) {
+                        return Piecolor(i);
+                        })
+                    .attr("d", arc);
+
+                arcs.append("text")
+                    .attr("transform", function(d) { 
+                            return "translate(" + label_pie.centroid(d) + ")";})
+                    .text(function(d,i) { if (i==0){return name[i] + " " + dogpie_list[i] + "%"} else {return " "}})
+                    .style("font-size", 14)
+                    //.style('text-anchor', 'middle')
+                    .style("fill", 'black');
+                
+                var svg_pie_cat = d3v4.select("#piechart_cat"),
+                width_pie = svg_pie_cat.attr("width"),
+                height_pie = svg_pie_cat.attr("height"),
+                radius_pie = Math.min(width_pie, height_pie) / 2,
+                g_pie_cat = svg_pie_cat.append("g").attr("transform", "translate(" + width_pie / 2 + "," + height_pie / 2 + ")")
+
+                // Generate the pie
+                var pie_cat = d3v4.pie();
+
+                //Generate groups
+                var arcs_cat = g_pie_cat.selectAll("arc")
+                            .data(pie(catpie_list))
+                            .enter()
+                            .append("g")
+                            .attr("class", "arc")
+                
+                //Draw arc paths
+                arcs_cat.append("path")
+                        .attr("fill", function(d, i) {
+                            return Piecolor(i);
+                            })
+                        .attr("d", arc);
+
+                arcs_cat.append("text")
+                        .attr("transform", function(d) { 
+                                return "translate(" + label_pie.centroid(d) + ")"; 
+                        })
+                        .text(function(d,i) { if (i==0){return name_cat[i] + " " + catpie_list[i] + "%"} else {return " "}})
+                        .style("font-size", 14)
+                        //.style('text-anchor', 'middle')
+                        .style("fill", 'black');
+
+                div.transition()        
+                    .duration(200)      
+                    .style("opacity", .9);      
+                div.text(function(f){if (d.properties.value > 10){return d.properties.name + "   " + d.properties.value + "%"} else {return d.properties.name + " " + "N/A"}})
+                    .style("left", (d3v4.event.pageX) + "px")     
+                    .style("top", (d3v4.event.pageY - 28) + "px")   
+                
+                
+                })   
+
+        // fade out tooltip on mouse out               
+            .on("mouseout", function(d) { 
+                selectedState =  null;   
+                div.transition()        
+                .duration(500)      
+                .style("opacity", 0);  
+                d3v4.select("#piechart").selectAll("*").remove()
+                d3v4.select("#piechart_cat").selectAll("*").remove(); 
+                updateScatterplot();
+                map_scatter(data,selectedState,select_index,select_pet);////////// !!!!!!!!!!!
+            })
+
+		// add a legend
+		var w = 140, h = 300;
+
+		var key = d3v4.select("#usmap")
+			.append("svg")
+			.attr("width", w)
+			.attr("height", h)
+			.attr("class", "legend");
+
+		var legend = key.append("defs")
+			.append("svg:linearGradient")
+			.attr("id", "gradient")
+			.attr("x1", "100%")
+			.attr("y1", "0%")
+			.attr("x2", "100%")
+			.attr("y2", "100%")
+			.attr("spreadMethod", "pad");
+
+		legend.append("stop")
+			.attr("offset", "0%")
+			.attr("stop-color", highColor)
+			.attr("stop-opacity", 1);
+			
+		legend.append("stop")
+			.attr("offset", "100%")
+			.attr("stop-color", lowColor)
+			.attr("stop-opacity", 1);
+
+		key.append("rect")
+			.attr("width", w - 100)
+			.attr("height", h)
+			.style("fill", "url(#gradient)")
+			.attr("transform", "translate(0,10)");
+
+		var y = d3v4.scaleLinear()
+			.range([h, 0])
+			.domain([minVal, maxVal]);
+
+		var yAxis = d3v4.axisRight(y);
+
+		key.append("g")
+			.attr("class", "y axis")
+			.attr("transform", "translate(41,10)")
+			.call(yAxis)
+        
+        // Plot the scatterplot  
+        var selectedState=null;
+        map_scatter(data,selectedState,select_index,select_pet);
+  });
+});
+
+//// ===========================Scatter Plot========================================/////
+function updateScatterplot() {
+    // Remove existing points and axis
+    d3.select("#scatterplot")
+        .selectAll("*")
+        .remove();
+    console.log("CLEAR IS FINISHED!")
+}
+                
+function map_scatter(data,selectedState,select_index,select_pet){
+    // 1. Define the initial data types
+    const mental_health_idx=["adult_AMI","adult_abuse","adult_suicide","youth_MDE","youth_abuse","youth_severeMDE"];
+    const pet_type=["percAllPets","percDogOwners","percCatOwners"];
+    var initialDataType_index = mental_health_idx[0];
+    var initialDataType_pet = pet_type[0];
+// 2. Create the initial scatter plot
+    scatter_type(data,selectedState,initialDataType_index,initialDataType_pet);
+
+    
+    // 3. Create the 1st dropdown menu
+    
+    var select_index = d3v4.select("#dropdown1-div")
+                    
+                    .on("change", function() {
+                        console.log("this", this);
+                        selectedDataType_index =d3v4.select("#dropdown1-select").node().value;
+                        selectedDataType_pet = d3v4.select("#dropdown2-select").property("value");
+                        console.log(selectedDataType_index,selectedDataType_pet);
+                        // Generate the data based on the selected data types
+                        updateScatterplot();
+                        scatter_type(data,selectedState,selectedDataType_index,selectedDataType_pet);  
+    });
+
+    // Create the 2nd dropdown menu
+    var select_pet = d3.select("#dropdown2-div")
+                        // .append("select")
+                        .on("change", function() {
+                            console.log("this", this);
+                                selectedDataType_index = d3v4.select("#dropdown1-select").node().value;
+                                // selectedDataType_index = d3v4.select("#dropdown1").property("value");
+                                selectedDataType_pet = d3v4.select("#dropdown2-select").property("value");
+                                console.log(selectedDataType_index,selectedDataType_pet);
+                                // Generate the data based on the selected data types
+                                updateScatterplot();
+                                scatter_type(data,selectedState,selectedDataType_index,selectedDataType_pet);
+    });
+    
+// --------------SET THE ATTRIBUTES OF THE SCATTERPLOR LAYER--------------------//
+    function scatter_type(data,selectedState,DataType_index,DataType_pet){
+        const margin = { left: 40, right: 40, top: 40, bottom: 40 };
+        const width_spl = svg_scatter.attr("width") - margin.left - margin.right;
+        const height_spl = svg_scatter.attr("height") - margin.top - margin.bottom;
+
+        const xScale_spl = d3v4.scaleLinear()
+                .range([0, width_spl])
+                .domain([0, d3v4.max(data, d => d[DataType_pet])]);
+        const yScale_spl = d3v4.scaleLinear()
+                .range([height_spl, 0])
+                .domain([d3v4.min(data, d => d[DataType_index])-2, d3v4.max(data, d => d[DataType_index])]);
+        const xAxis_spl = d3v4.axisBottom(xScale_spl).ticks(10);
+        const yAxis_spl = d3v4.axisLeft(yScale_spl).ticks(5);
+
+        const spl = svg_scatter.append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top +")");
+        spl.append('g')
+        .attr('transform', 'translate(0, ' + height_spl + ")")
+        .attr('class', 'x-axis')
+        .call(xAxis_spl);
+        spl.append("g")
+        .attr("transform", `translate(${width_spl-70}, ${height_spl-10})`)
+        .append("text")
+        .style("text-anchor", "middle")
+        .text("Percentage of Owning Pets");
+        spl.append('g')
+        .attr('class', 'y-axis')
+        .call(yAxis_spl);
+        spl.append("g")
+        .attr("transform", `translate(${20}, ${70})`)
+        .append("text")
+        .style("text-anchor", "middle")
+        .text("The Mental Index")
+        .attr('transform',"rotate(-90)");
+
+        if (selectedState==null){
+            console.log("call the independent function");
+            console.log(DataType_index,DataType_pet);
+            drawScatterPlot(spl,data,selectedState,DataType_index,DataType_pet, xScale_spl, yScale_spl, div, width_spl, height_spl);
+        }
+        else {
+            console.log("call the linked function",selectedState);
+            drawScatterPlot_linked(spl, data,selectedState, DataType_index,DataType_pet, xScale_spl, yScale_spl, div, width_spl, height_spl) ;
+        }
+        
+        }
+
+    // --------------Scatter Plot DRAWING THE POINTS--------------//
+    function drawScatterPlot(scatterPlotLayer, data,selectedState, DataType_index,DataType_pet, xScale, yScale, div, scatterPlotWidth, scatterPlotHeight) {
+        // console.log(data);
+        scatterPlotLayer.selectAll('.point')
+        .data(data)
+        .enter().append('circle')
+        .attr('class', d=>d.state)
+        .attr('cx', d => xScale(d[DataType_pet]))
+        .attr('cy', d => yScale(d[DataType_index]))
+        .attr('r', "5") 
+        .style("fill", '#6ca992')
+        .style("stroke", "black")
+        .style("stroke-width", 2)
+        .on("mouseover", (event, d) => {
+                div.style("opacity", .9);
+                div.html(d.state + "\n "+d[DataType_index]+"%")
+                    .style("left", event.pageX + "px")
+                    .style("top", event.pageY + "px");
+                d3v4.select(event.target.parentElement)
+                    .append('rect')
+                    .attr('id', 'coverRect')
+                    .attr('x', '0')
+                    .attr('y', '0')
+                    .attr('width', `${scatterPlotWidth}`)
+                    .attr('height', `${scatterPlotHeight}`)
+                    .style('fill', '#fce703')
+                    .style('opacity', 0.5);
+                d3v4.select(event.target).style("r", 10)
+                                        . style("fill", "#ba1016").raise();
+                console.log(event.target);
+        })
+        .on('mouseout',(event, d)=>{
+                div.style("opacity", 0);
+                d3v4.select("#coverRect").remove();
+                d3v4.select(event.target).style('r', 5);
+                d3v4.select(event.target).style("fill", "#6ca992").lower();
+    
+        });
+    }
+
+    
+    function drawScatterPlot_linked(scatterPlotLayer, data,selectedState, DataType_index,DataType_pet, xScale, yScale, div, scatterPlotWidth, scatterPlotHeight) {
+        var filteredData = data.filter(d => d.state ==selectedState)[0]
+        filteredData=[filteredData][0];
+
+        var circle = scatterPlotLayer.append('circle')
+                                        .attr('class', 'point')
+                                        .attr('cx', xScale(filteredData[DataType_pet]))
+                                        .attr('cy', yScale(filteredData[DataType_index]))
+                                        .attr('r',10)
+                                        .style('fill', 'red')
+                                        .style('stroke', 'black')
+                                        .style('stroke-width', 2).raise();
+        circle.datum(filteredData);
+        scatterPlotLayer.selectAll('.point')
+                        .data(data)
+                        .enter().append('circle')
+                        .attr('class', d=>d.state)
+                        .attr('cx', d => xScale(d[DataType_pet]))
+                        .attr('cy', d => yScale(d[DataType_index]))
+                        .attr('r', "5")
+                        .style("fill", '#6ca992')
+                        .style("stroke", "black")
+                        .style("stroke-width", 2)
+        console.log('linked function finished')
+                        
+    }
+}
+//======================Generate the Initial Scatterplot===========================================//
+function initial_map(data,select_index,select_pet){
+    const mental_health_idx=["adult_AMI","adult_abuse","adult_suicide","youth_MDE","youth_abuse","youth_severeMDE"];
+    const pet_type=["percAllPets","percDogOwners","percCatOwners"];
+
+    select_index.selectAll("option")
+                .data(mental_health_idx)
+                .enter()
+                .append("option")
+                .attr("id", "dropdown1") 
+                .attr("value", function(d) { return d; })
+                .text(function(d) { return d; });
+    select_pet.selectAll("option")
+                .data(pet_type)
+                .enter()
+                .append("option")
+                .attr("id", "dropdown2")
+                .attr("value", function(d) { return d; })
+                .text(function(d) { return d; });
+}
+</script>
+
+<!-- //// ===========================Tree Map========================================///// -->
+<br>
+<br>
+<h1 class="second_layer_headline">Who are mentally healthier, with or without a pet?</h1>
+    <p class="tree_text">With other variables being the same, pet owners are emotionally, psychologically and mentally healthier &#128054
+    <br>
+    <p class="tree_text">Within pet onwers group or non-pet owners group, male are mentally healthier than female &#9794
+    <br>
+    <p class="tree_text">Pet greatly alleviates the mental health problems for middle-aged people (45-64) &#128008
+    <br>
+    <p class="tree_text">Non-caucasian pet owners have a 10%+ higher mentally healthy rate compared with non-pet owners &#128170
+    <br>
+    <br>
+    <div id="root"></div> 
+    <script type="text/babel">
+    const WIDTH = 1300;
+    const HEIGHT = 700;
+    const margin = { top: 20, right: 40, bottom: 20, left: 40 };
+    const csvUrl_pet = "https://gist.githubusercontent.com/ellazhang-gif/390d62bf94bfbcf5a114c7f7f8eb51d4/raw/5373a67b633a773bc20011715f81d7254a9f689e/pet_data";
+    
+    // Data Pre-processing
+    function useData(csvPath){
+        const [dataAll, setData] = React.useState(null);
+        React.useEffect(() => {
+            d3.csv(csvPath).then(data => {
+                data.forEach(d => {
+                    d.pet = "Pet: " + d.pet; //pet ownership
+                    d.age = "Age: "+d.age;
+                    d.gender = " "+d.D4
+                    d.healthy = d.healthy;
+                    d.education = "Education: " +d.D5
+                    d.ethnicity = " " +d.D67
+                });
+                setData(data);
+            });
+        }, []);
+        return dataAll;
+    }
+    function getAgeGroup( d ){
+        if (d.age = "18-24") {
+            return "Age:[18, 24]"
+        }
+        if (d.age = "25-34") {
+            return "Age:[25, 34]"
+        }
+        if (d.age = "35-44") {
+            return "Age:[35, 44]"
+        }
+        if (d.age = "45-54") {
+            return "Age:[45, 54]"
+        }
+        if (d.age = "55-64") {
+            return "Age:[55, 64]"
+        }
+        if (d.age = "65+") {
+            return "Age:[65+]"
+        }
+    }
+
+    function getTree( data, attrs ) {
+        const getLevels = (attr) => {
+            const attrArray = data.map(d => d[attr]);
+            const levels = attrArray.filter( (d, idx) => attrArray.indexOf(d) === idx).sort();
+            return levels.map( d => {return {"name": d, "attr": attr}});
+        };
+        const levels = attrs.map( d => getLevels(d));
+        const getJsonTree = function( data, levels ) {
+            let itemArr = [];
+            if(levels.length === 0) {
+                return null;
+            }
+        const currentLevel = levels[0];
+        for (let i = 0; i < currentLevel.length; i++) {
+            let node = currentLevel[i];
+            let newData = data.filter(d => d[currentLevel[0].attr] === currentLevel[i].name)
+            if (newData.length > 0){
+                let newNode = {};
+                newNode.points = newData;
+                newNode.name = node.name;
+                newNode.attr = node.attr;
+                newNode.value = newData.filter( d => d.healthy === 'Yes').length/newData.length; //healthy rate 
+                let children = getJsonTree(newData, levels.slice(1));
+                if (children) {
+                    newNode.children = children;
+                }
+                itemArr.push(newNode);
+                }
+            }
+            return itemArr;
+        };
+        return getJsonTree(data, levels);
+    }
+
+    function TreeMapText(props) {
+        const { d } = props;
+        return <foreignObject width={d.x1-d.x0} height={d.y1-d.y0-10}>
+            <div >
+                <p>{d.ancestors().reverse().slice(1).map((d, idx) => d.data.name)
+                    .join("\n")+"\nHealthy:"+d3.format(".0%")(d.value)}</p>
+            </div>
+            </foreignObject>
+    }
+
+    function TreeMap(props) {
+        const { width, height, tree, selectedCell, setSelectedCell } = props;
+        const margin = { top: 20, right: 40, bottom: 20, left: 40, gap: 40 };
+        const innerWidth = width - margin.left - margin.right;
+        const innerHeight = height - margin.top - margin.bottom;
+        const root = d3.treemap().size([innerWidth, innerHeight]).padding(2)
+            .round(true)(d3.hierarchy(tree).sum(d => d.children ? 0 : d.value))
+            .sort((a, b) => b.value - a.value);
+        const leaves = root.leaves();
+        const parents = root.leaves().map( d => d.parent.data.name);
+        const parentsCategories = parents.filter( (d, idx) => parents.indexOf(d) === idx );
+        const color = d3.scaleOrdinal(d3.schemeAccent).domain(parentsCategories);
+        const firstLayer = root.descendants()[0].children;
+        const compareAncestors = (ancestors) => {
+            if(!selectedCell){
+                return false;
+            }
+            for(let i = 0; i < ancestors.length; i++){
+                if (selectedCell[i].name !== ancestors[i].name) {
+                    return false;
+                }
+            }
+            return true;
+        };
+        return <svg width={width} height={height}>
+        <g transform={`translate(${margin.left}, ${margin.right})`}>
+            {root.leaves().map( (d, idx) => {
+                const ancestors = d.ancestors().map(d => {return {"name":d.data.name, "attr":d.data.attr}}).slice(0, -1);
+                return <g key={idx+"treemap"} transform={`translate(${d.x0}, ${d.y0})`} 
+                    onMouseOver={()=>setSelectedCell(ancestors)} onMouseOut={()=>setSelectedCell(null)}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"none"} fill={selectedCell && compareAncestors(ancestors) ? "orange":color(d.parent.data.name)} opacity={0.8}/>
+                    <TreeMapText d={d} />
+                </g>
+            })}
+            {firstLayer.map( (d, idx) => {
+                return <g key={idx+"outerline"} transform={`translate(${d.x0}, ${d.y0})`}>
+                    <rect width={d.x1-d.x0} height={d.y1-d.y0} stroke={"black"} fill={"none"}/>
+                    <text style={{fontSize:"4em"}} x={ (d.x1-d.x0)/2 } y={ (d.y1-d.y0)/2 } textAnchor={"middle"} opacity={0.2} 
+                    transform={`rotate(${(d.x1-d.x0)>(d.y1-d.y0)? 0: 90}, ${(d.x1-d.x0)/2}, ${(d.y1-d.y0)/2})`}>
+                        {d.data.name}
+                        </text>
+                    </g>
+            })}
+            </g>
+        </svg>
+    }
+
+    function Dropdown (props) {
+        const { options, id, selectedValue, onSelectedValueChange } = props;
+        return <select id={id} defaultValue={selectedValue} onChange={event => {console.log(event.target); onSelectedValueChange(event.target.value)}}>
+            {options.map( ({value, label}) => {
+                return <option key={label} value={value} >
+                    {label}
+                </option>
+            })}
+        </select>
+    }
+
+    const Pet = () => {
+        const [firstAttr, setFirstAttr] = React.useState("pet");
+        const [secondAttr, setSecondAttr] = React.useState("age");
+        const [thirdAttr, setThirdAttr] = React.useState("gender");
+        const [selectedCell, setSelectedCell] = React.useState(null);
+
+        const rawData = useData(csvUrl_pet);
+        if (!rawData) {
+            return <p>
+                Loading...
+                </p>
+        }
+        const data = rawData
+        const innerWidth = WIDTH - margin.left - margin.right;
+        const innerHeight = HEIGHT - margin.top - margin.bottom;
+        const attributes = [ firstAttr, secondAttr, thirdAttr ].filter( d => d !== "null");
+        const onFristAttrChange = ( attr ) => {
+            setFirstAttr(attr);
+        }
+        const onSecondAttrChange = ( attr ) => {
+            setSecondAttr(attr);
+        }
+        const onThirdAttrChange = ( attr ) => {
+            setThirdAttr(attr);
+        }
+        const tree_ = getTree(data, attributes);
+        const tree = {"name":"root", "children": tree_};
+        const options = [{value: "null", label: "None"},{value: "pet", label: "Pet Ownership"}, {value: "gender", label: "Gender"},
+            {value: "age", label: "Age Group"}, {value: "education", label: "Education"}, {value: "ethnicity", label: "Ethnicity"}];
+        return <div class="container">
+            <div>
+            <Dropdown options={options} id={"selector1"} selectedValue={firstAttr} onSelectedValueChange={onFristAttrChange}/>
+            <Dropdown options={options} id={"selector2"} selectedValue={secondAttr} onSelectedValueChange={onSecondAttrChange}/>
+            <Dropdown options={options} id={"selector3"} selectedValue={thirdAttr} onSelectedValueChange={onThirdAttrChange}/>
+            <br />
+            <TreeMap width={WIDTH} height={HEIGHT} tree={tree} selectedCell={selectedCell} setSelectedCell={setSelectedCell}/>
+            </div>
+        </div>
+    }
+    ReactDOM.render( <Pet/>, document.getElementById('root'));
+    </script>
+</body>
+</html>

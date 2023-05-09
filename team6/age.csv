@@ -1,0 +1,1260 @@
+Area,Month,age_label,index_column
+77th Street,1,0-19,346
+77th Street,1,20-39,362
+77th Street,1,40-59,229
+77th Street,1,60-79,73
+77th Street,1,>=80,5
+77th Street,2,0-19,284
+77th Street,2,20-39,401
+77th Street,2,40-59,278
+77th Street,2,60-79,75
+77th Street,2,>=80,3
+77th Street,3,0-19,337
+77th Street,3,20-39,457
+77th Street,3,40-59,292
+77th Street,3,60-79,87
+77th Street,3,>=80,10
+77th Street,4,0-19,365
+77th Street,4,20-39,492
+77th Street,4,40-59,273
+77th Street,4,60-79,100
+77th Street,4,>=80,10
+77th Street,5,0-19,398
+77th Street,5,20-39,512
+77th Street,5,40-59,343
+77th Street,5,60-79,101
+77th Street,5,>=80,5
+77th Street,6,0-19,372
+77th Street,6,20-39,494
+77th Street,6,40-59,309
+77th Street,6,60-79,121
+77th Street,6,>=80,5
+77th Street,7,0-19,385
+77th Street,7,20-39,489
+77th Street,7,40-59,298
+77th Street,7,60-79,98
+77th Street,7,>=80,7
+77th Street,8,0-19,360
+77th Street,8,20-39,466
+77th Street,8,40-59,281
+77th Street,8,60-79,100
+77th Street,8,>=80,9
+77th Street,9,0-19,369
+77th Street,9,20-39,450
+77th Street,9,40-59,286
+77th Street,9,60-79,86
+77th Street,9,>=80,8
+77th Street,10,0-19,337
+77th Street,10,20-39,533
+77th Street,10,40-59,314
+77th Street,10,60-79,91
+77th Street,10,>=80,11
+77th Street,11,0-19,324
+77th Street,11,20-39,432
+77th Street,11,40-59,264
+77th Street,11,60-79,107
+77th Street,11,>=80,5
+77th Street,12,0-19,310
+77th Street,12,20-39,513
+77th Street,12,40-59,306
+77th Street,12,60-79,80
+77th Street,12,>=80,5
+Central,1,0-19,314
+Central,1,20-39,595
+Central,1,40-59,272
+Central,1,60-79,98
+Central,1,>=80,4
+Central,2,0-19,255
+Central,2,20-39,587
+Central,2,40-59,275
+Central,2,60-79,86
+Central,2,>=80,2
+Central,3,0-19,276
+Central,3,20-39,718
+Central,3,40-59,363
+Central,3,60-79,90
+Central,3,>=80,3
+Central,4,0-19,285
+Central,4,20-39,761
+Central,4,40-59,364
+Central,4,60-79,94
+Central,4,>=80,5
+Central,5,0-19,310
+Central,5,20-39,691
+Central,5,40-59,361
+Central,5,60-79,112
+Central,5,>=80,5
+Central,6,0-19,318
+Central,6,20-39,688
+Central,6,40-59,331
+Central,6,60-79,118
+Central,6,>=80,9
+Central,7,0-19,344
+Central,7,20-39,746
+Central,7,40-59,349
+Central,7,60-79,106
+Central,7,>=80,6
+Central,8,0-19,358
+Central,8,20-39,872
+Central,8,40-59,361
+Central,8,60-79,93
+Central,8,>=80,8
+Central,9,0-19,298
+Central,9,20-39,796
+Central,9,40-59,306
+Central,9,60-79,102
+Central,9,>=80,6
+Central,10,0-19,313
+Central,10,20-39,780
+Central,10,40-59,327
+Central,10,60-79,97
+Central,10,>=80,4
+Central,11,0-19,339
+Central,11,20-39,665
+Central,11,40-59,325
+Central,11,60-79,91
+Central,11,>=80,5
+Central,12,0-19,315
+Central,12,20-39,750
+Central,12,40-59,332
+Central,12,60-79,107
+Central,12,>=80,2
+Devonshire,1,0-19,260
+Devonshire,1,20-39,249
+Devonshire,1,40-59,185
+Devonshire,1,60-79,98
+Devonshire,1,>=80,7
+Devonshire,2,0-19,251
+Devonshire,2,20-39,197
+Devonshire,2,40-59,181
+Devonshire,2,60-79,99
+Devonshire,2,>=80,8
+Devonshire,3,0-19,261
+Devonshire,3,20-39,239
+Devonshire,3,40-59,158
+Devonshire,3,60-79,108
+Devonshire,3,>=80,11
+Devonshire,4,0-19,245
+Devonshire,4,20-39,236
+Devonshire,4,40-59,193
+Devonshire,4,60-79,95
+Devonshire,4,>=80,23
+Devonshire,5,0-19,285
+Devonshire,5,20-39,198
+Devonshire,5,40-59,177
+Devonshire,5,60-79,90
+Devonshire,5,>=80,11
+Devonshire,6,0-19,283
+Devonshire,6,20-39,236
+Devonshire,6,40-59,214
+Devonshire,6,60-79,95
+Devonshire,6,>=80,11
+Devonshire,7,0-19,252
+Devonshire,7,20-39,215
+Devonshire,7,40-59,193
+Devonshire,7,60-79,90
+Devonshire,7,>=80,6
+Devonshire,8,0-19,269
+Devonshire,8,20-39,245
+Devonshire,8,40-59,182
+Devonshire,8,60-79,85
+Devonshire,8,>=80,19
+Devonshire,9,0-19,222
+Devonshire,9,20-39,275
+Devonshire,9,40-59,191
+Devonshire,9,60-79,80
+Devonshire,9,>=80,13
+Devonshire,10,0-19,226
+Devonshire,10,20-39,288
+Devonshire,10,40-59,209
+Devonshire,10,60-79,95
+Devonshire,10,>=80,15
+Devonshire,11,0-19,242
+Devonshire,11,20-39,213
+Devonshire,11,40-59,196
+Devonshire,11,60-79,84
+Devonshire,11,>=80,15
+Devonshire,12,0-19,232
+Devonshire,12,20-39,258
+Devonshire,12,40-59,191
+Devonshire,12,60-79,102
+Devonshire,12,>=80,19
+Foothill,1,0-19,180
+Foothill,1,20-39,223
+Foothill,1,40-59,172
+Foothill,1,60-79,61
+Foothill,1,>=80,8
+Foothill,2,0-19,199
+Foothill,2,20-39,213
+Foothill,2,40-59,172
+Foothill,2,60-79,68
+Foothill,2,>=80,3
+Foothill,3,0-19,168
+Foothill,3,20-39,203
+Foothill,3,40-59,166
+Foothill,3,60-79,86
+Foothill,3,>=80,3
+Foothill,4,0-19,179
+Foothill,4,20-39,224
+Foothill,4,40-59,163
+Foothill,4,60-79,58
+Foothill,4,>=80,2
+Foothill,5,0-19,215
+Foothill,5,20-39,259
+Foothill,5,40-59,185
+Foothill,5,60-79,59
+Foothill,5,>=80,4
+Foothill,6,0-19,178
+Foothill,6,20-39,249
+Foothill,6,40-59,197
+Foothill,6,60-79,62
+Foothill,6,>=80,9
+Foothill,7,0-19,202
+Foothill,7,20-39,224
+Foothill,7,40-59,189
+Foothill,7,60-79,51
+Foothill,7,>=80,8
+Foothill,8,0-19,180
+Foothill,8,20-39,200
+Foothill,8,40-59,190
+Foothill,8,60-79,47
+Foothill,8,>=80,2
+Foothill,9,0-19,190
+Foothill,9,20-39,197
+Foothill,9,40-59,175
+Foothill,9,60-79,59
+Foothill,9,>=80,5
+Foothill,10,0-19,178
+Foothill,10,20-39,203
+Foothill,10,40-59,144
+Foothill,10,60-79,56
+Foothill,10,>=80,4
+Foothill,11,0-19,175
+Foothill,11,20-39,227
+Foothill,11,40-59,163
+Foothill,11,60-79,59
+Foothill,11,>=80,10
+Foothill,12,0-19,222
+Foothill,12,20-39,237
+Foothill,12,40-59,152
+Foothill,12,60-79,54
+Foothill,12,>=80,5
+Harbor,1,0-19,310
+Harbor,1,20-39,200
+Harbor,1,40-59,194
+Harbor,1,60-79,66
+Harbor,1,>=80,7
+Harbor,2,0-19,225
+Harbor,2,20-39,224
+Harbor,2,40-59,169
+Harbor,2,60-79,57
+Harbor,2,>=80,3
+Harbor,3,0-19,293
+Harbor,3,20-39,208
+Harbor,3,40-59,181
+Harbor,3,60-79,71
+Harbor,3,>=80,4
+Harbor,4,0-19,266
+Harbor,4,20-39,260
+Harbor,4,40-59,188
+Harbor,4,60-79,55
+Harbor,4,>=80,6
+Harbor,5,0-19,258
+Harbor,5,20-39,240
+Harbor,5,40-59,168
+Harbor,5,60-79,62
+Harbor,5,>=80,9
+Harbor,6,0-19,260
+Harbor,6,20-39,238
+Harbor,6,40-59,181
+Harbor,6,60-79,66
+Harbor,6,>=80,3
+Harbor,7,0-19,261
+Harbor,7,20-39,274
+Harbor,7,40-59,198
+Harbor,7,60-79,75
+Harbor,7,>=80,10
+Harbor,8,0-19,284
+Harbor,8,20-39,249
+Harbor,8,40-59,206
+Harbor,8,60-79,66
+Harbor,8,>=80,2
+Harbor,9,0-19,273
+Harbor,9,20-39,248
+Harbor,9,40-59,170
+Harbor,9,60-79,63
+Harbor,9,>=80,7
+Harbor,10,0-19,293
+Harbor,10,20-39,238
+Harbor,10,40-59,196
+Harbor,10,60-79,49
+Harbor,10,>=80,4
+Harbor,11,0-19,246
+Harbor,11,20-39,175
+Harbor,11,40-59,167
+Harbor,11,60-79,62
+Harbor,11,>=80,4
+Harbor,12,0-19,261
+Harbor,12,20-39,262
+Harbor,12,40-59,211
+Harbor,12,60-79,71
+Harbor,12,>=80,9
+Hollenbeck,1,0-19,209
+Hollenbeck,1,20-39,223
+Hollenbeck,1,40-59,143
+Hollenbeck,1,60-79,34
+Hollenbeck,1,>=80,5
+Hollenbeck,2,0-19,202
+Hollenbeck,2,20-39,193
+Hollenbeck,2,40-59,158
+Hollenbeck,2,60-79,52
+Hollenbeck,2,>=80,9
+Hollenbeck,3,0-19,290
+Hollenbeck,3,20-39,241
+Hollenbeck,3,40-59,143
+Hollenbeck,3,60-79,52
+Hollenbeck,3,>=80,8
+Hollenbeck,4,0-19,271
+Hollenbeck,4,20-39,217
+Hollenbeck,4,40-59,147
+Hollenbeck,4,60-79,39
+Hollenbeck,4,>=80,6
+Hollenbeck,5,0-19,289
+Hollenbeck,5,20-39,254
+Hollenbeck,5,40-59,159
+Hollenbeck,5,60-79,52
+Hollenbeck,5,>=80,3
+Hollenbeck,6,0-19,254
+Hollenbeck,6,20-39,263
+Hollenbeck,6,40-59,154
+Hollenbeck,6,60-79,48
+Hollenbeck,6,>=80,6
+Hollenbeck,7,0-19,276
+Hollenbeck,7,20-39,272
+Hollenbeck,7,40-59,151
+Hollenbeck,7,60-79,52
+Hollenbeck,7,>=80,3
+Hollenbeck,8,0-19,263
+Hollenbeck,8,20-39,280
+Hollenbeck,8,40-59,171
+Hollenbeck,8,60-79,48
+Hollenbeck,8,>=80,9
+Hollenbeck,9,0-19,241
+Hollenbeck,9,20-39,228
+Hollenbeck,9,40-59,152
+Hollenbeck,9,60-79,43
+Hollenbeck,9,>=80,8
+Hollenbeck,10,0-19,262
+Hollenbeck,10,20-39,246
+Hollenbeck,10,40-59,174
+Hollenbeck,10,60-79,56
+Hollenbeck,10,>=80,1
+Hollenbeck,11,0-19,245
+Hollenbeck,11,20-39,234
+Hollenbeck,11,40-59,140
+Hollenbeck,11,60-79,51
+Hollenbeck,11,>=80,5
+Hollenbeck,12,0-19,248
+Hollenbeck,12,20-39,255
+Hollenbeck,12,40-59,166
+Hollenbeck,12,60-79,55
+Hollenbeck,12,>=80,8
+Hollywood,1,0-19,264
+Hollywood,1,20-39,486
+Hollywood,1,40-59,195
+Hollywood,1,60-79,57
+Hollywood,1,>=80,12
+Hollywood,2,0-19,268
+Hollywood,2,20-39,490
+Hollywood,2,40-59,189
+Hollywood,2,60-79,50
+Hollywood,2,>=80,10
+Hollywood,3,0-19,249
+Hollywood,3,20-39,512
+Hollywood,3,40-59,227
+Hollywood,3,60-79,60
+Hollywood,3,>=80,4
+Hollywood,4,0-19,272
+Hollywood,4,20-39,482
+Hollywood,4,40-59,212
+Hollywood,4,60-79,55
+Hollywood,4,>=80,5
+Hollywood,5,0-19,272
+Hollywood,5,20-39,490
+Hollywood,5,40-59,212
+Hollywood,5,60-79,59
+Hollywood,5,>=80,2
+Hollywood,6,0-19,263
+Hollywood,6,20-39,580
+Hollywood,6,40-59,244
+Hollywood,6,60-79,80
+Hollywood,6,>=80,4
+Hollywood,7,0-19,259
+Hollywood,7,20-39,530
+Hollywood,7,40-59,259
+Hollywood,7,60-79,74
+Hollywood,7,>=80,7
+Hollywood,8,0-19,254
+Hollywood,8,20-39,518
+Hollywood,8,40-59,226
+Hollywood,8,60-79,74
+Hollywood,8,>=80,6
+Hollywood,9,0-19,229
+Hollywood,9,20-39,489
+Hollywood,9,40-59,243
+Hollywood,9,60-79,70
+Hollywood,9,>=80,3
+Hollywood,10,0-19,257
+Hollywood,10,20-39,474
+Hollywood,10,40-59,250
+Hollywood,10,60-79,83
+Hollywood,10,>=80,5
+Hollywood,11,0-19,251
+Hollywood,11,20-39,419
+Hollywood,11,40-59,198
+Hollywood,11,60-79,73
+Hollywood,11,>=80,8
+Hollywood,12,0-19,214
+Hollywood,12,20-39,413
+Hollywood,12,40-59,200
+Hollywood,12,60-79,49
+Hollywood,12,>=80,5
+Mission,1,0-19,241
+Mission,1,20-39,282
+Mission,1,40-59,220
+Mission,1,60-79,63
+Mission,1,>=80,1
+Mission,2,0-19,233
+Mission,2,20-39,257
+Mission,2,40-59,219
+Mission,2,60-79,63
+Mission,2,>=80,4
+Mission,3,0-19,214
+Mission,3,20-39,296
+Mission,3,40-59,231
+Mission,3,60-79,83
+Mission,3,>=80,6
+Mission,4,0-19,210
+Mission,4,20-39,287
+Mission,4,40-59,204
+Mission,4,60-79,61
+Mission,4,>=80,10
+Mission,5,0-19,219
+Mission,5,20-39,309
+Mission,5,40-59,240
+Mission,5,60-79,61
+Mission,5,>=80,10
+Mission,6,0-19,180
+Mission,6,20-39,308
+Mission,6,40-59,204
+Mission,6,60-79,69
+Mission,6,>=80,4
+Mission,7,0-19,215
+Mission,7,20-39,287
+Mission,7,40-59,197
+Mission,7,60-79,55
+Mission,7,>=80,2
+Mission,8,0-19,223
+Mission,8,20-39,241
+Mission,8,40-59,196
+Mission,8,60-79,67
+Mission,8,>=80,3
+Mission,9,0-19,213
+Mission,9,20-39,254
+Mission,9,40-59,177
+Mission,9,60-79,59
+Mission,9,>=80,2
+Mission,10,0-19,213
+Mission,10,20-39,230
+Mission,10,40-59,178
+Mission,10,60-79,44
+Mission,10,>=80,6
+Mission,11,0-19,205
+Mission,11,20-39,277
+Mission,11,40-59,198
+Mission,11,60-79,48
+Mission,11,>=80,8
+Mission,12,0-19,212
+Mission,12,20-39,288
+Mission,12,40-59,191
+Mission,12,60-79,60
+Mission,12,>=80,10
+N Hollywood,1,0-19,317
+N Hollywood,1,20-39,327
+N Hollywood,1,40-59,217
+N Hollywood,1,60-79,84
+N Hollywood,1,>=80,6
+N Hollywood,2,0-19,252
+N Hollywood,2,20-39,315
+N Hollywood,2,40-59,183
+N Hollywood,2,60-79,78
+N Hollywood,2,>=80,11
+N Hollywood,3,0-19,299
+N Hollywood,3,20-39,339
+N Hollywood,3,40-59,211
+N Hollywood,3,60-79,98
+N Hollywood,3,>=80,7
+N Hollywood,4,0-19,283
+N Hollywood,4,20-39,313
+N Hollywood,4,40-59,243
+N Hollywood,4,60-79,83
+N Hollywood,4,>=80,7
+N Hollywood,5,0-19,323
+N Hollywood,5,20-39,385
+N Hollywood,5,40-59,222
+N Hollywood,5,60-79,77
+N Hollywood,5,>=80,10
+N Hollywood,6,0-19,296
+N Hollywood,6,20-39,350
+N Hollywood,6,40-59,209
+N Hollywood,6,60-79,90
+N Hollywood,6,>=80,12
+N Hollywood,7,0-19,243
+N Hollywood,7,20-39,384
+N Hollywood,7,40-59,210
+N Hollywood,7,60-79,84
+N Hollywood,7,>=80,7
+N Hollywood,8,0-19,279
+N Hollywood,8,20-39,345
+N Hollywood,8,40-59,245
+N Hollywood,8,60-79,79
+N Hollywood,8,>=80,11
+N Hollywood,9,0-19,264
+N Hollywood,9,20-39,322
+N Hollywood,9,40-59,198
+N Hollywood,9,60-79,76
+N Hollywood,9,>=80,7
+N Hollywood,10,0-19,268
+N Hollywood,10,20-39,336
+N Hollywood,10,40-59,188
+N Hollywood,10,60-79,73
+N Hollywood,10,>=80,6
+N Hollywood,11,0-19,237
+N Hollywood,11,20-39,322
+N Hollywood,11,40-59,217
+N Hollywood,11,60-79,78
+N Hollywood,11,>=80,10
+N Hollywood,12,0-19,249
+N Hollywood,12,20-39,366
+N Hollywood,12,40-59,210
+N Hollywood,12,60-79,88
+N Hollywood,12,>=80,14
+Newton,1,0-19,312
+Newton,1,20-39,292
+Newton,1,40-59,167
+Newton,1,60-79,41
+Newton,1,>=80,4
+Newton,2,0-19,331
+Newton,2,20-39,412
+Newton,2,40-59,202
+Newton,2,60-79,52
+Newton,2,>=80,5
+Newton,3,0-19,369
+Newton,3,20-39,328
+Newton,3,40-59,216
+Newton,3,60-79,48
+Newton,3,>=80,1
+Newton,4,0-19,336
+Newton,4,20-39,359
+Newton,4,40-59,196
+Newton,4,60-79,55
+Newton,4,>=80,4
+Newton,5,0-19,395
+Newton,5,20-39,352
+Newton,5,40-59,218
+Newton,5,60-79,53
+Newton,5,>=80,4
+Newton,6,0-19,363
+Newton,6,20-39,434
+Newton,6,40-59,208
+Newton,6,60-79,62
+Newton,6,>=80,2
+Newton,7,0-19,320
+Newton,7,20-39,422
+Newton,7,40-59,248
+Newton,7,60-79,60
+Newton,7,>=80,4
+Newton,8,0-19,320
+Newton,8,20-39,397
+Newton,8,40-59,228
+Newton,8,60-79,58
+Newton,8,>=80,2
+Newton,9,0-19,350
+Newton,9,20-39,402
+Newton,9,40-59,248
+Newton,9,60-79,66
+Newton,9,>=80,4
+Newton,10,0-19,341
+Newton,10,20-39,386
+Newton,10,40-59,229
+Newton,10,60-79,62
+Newton,11,0-19,344
+Newton,11,20-39,363
+Newton,11,40-59,214
+Newton,11,60-79,32
+Newton,11,>=80,2
+Newton,12,0-19,284
+Newton,12,20-39,389
+Newton,12,40-59,220
+Newton,12,60-79,47
+Newton,12,>=80,2
+Northeast,1,0-19,298
+Northeast,1,20-39,229
+Northeast,1,40-59,200
+Northeast,1,60-79,86
+Northeast,1,>=80,4
+Northeast,2,0-19,282
+Northeast,2,20-39,243
+Northeast,2,40-59,172
+Northeast,2,60-79,63
+Northeast,2,>=80,5
+Northeast,3,0-19,300
+Northeast,3,20-39,261
+Northeast,3,40-59,175
+Northeast,3,60-79,77
+Northeast,3,>=80,8
+Northeast,4,0-19,277
+Northeast,4,20-39,281
+Northeast,4,40-59,202
+Northeast,4,60-79,76
+Northeast,4,>=80,14
+Northeast,5,0-19,326
+Northeast,5,20-39,281
+Northeast,5,40-59,214
+Northeast,5,60-79,69
+Northeast,5,>=80,8
+Northeast,6,0-19,246
+Northeast,6,20-39,330
+Northeast,6,40-59,199
+Northeast,6,60-79,65
+Northeast,6,>=80,7
+Northeast,7,0-19,284
+Northeast,7,20-39,292
+Northeast,7,40-59,236
+Northeast,7,60-79,66
+Northeast,7,>=80,6
+Northeast,8,0-19,293
+Northeast,8,20-39,305
+Northeast,8,40-59,188
+Northeast,8,60-79,83
+Northeast,8,>=80,9
+Northeast,9,0-19,251
+Northeast,9,20-39,307
+Northeast,9,40-59,181
+Northeast,9,60-79,71
+Northeast,9,>=80,7
+Northeast,10,0-19,247
+Northeast,10,20-39,326
+Northeast,10,40-59,221
+Northeast,10,60-79,82
+Northeast,10,>=80,10
+Northeast,11,0-19,232
+Northeast,11,20-39,277
+Northeast,11,40-59,198
+Northeast,11,60-79,84
+Northeast,11,>=80,8
+Northeast,12,0-19,234
+Northeast,12,20-39,269
+Northeast,12,40-59,226
+Northeast,12,60-79,85
+Northeast,12,>=80,16
+Olympic,1,0-19,280
+Olympic,1,20-39,422
+Olympic,1,40-59,222
+Olympic,1,60-79,83
+Olympic,1,>=80,5
+Olympic,2,0-19,284
+Olympic,2,20-39,414
+Olympic,2,40-59,186
+Olympic,2,60-79,61
+Olympic,2,>=80,2
+Olympic,3,0-19,294
+Olympic,3,20-39,427
+Olympic,3,40-59,207
+Olympic,3,60-79,63
+Olympic,3,>=80,5
+Olympic,4,0-19,314
+Olympic,4,20-39,446
+Olympic,4,40-59,186
+Olympic,4,60-79,85
+Olympic,4,>=80,7
+Olympic,5,0-19,293
+Olympic,5,20-39,392
+Olympic,5,40-59,217
+Olympic,5,60-79,80
+Olympic,5,>=80,9
+Olympic,6,0-19,297
+Olympic,6,20-39,423
+Olympic,6,40-59,239
+Olympic,6,60-79,62
+Olympic,6,>=80,11
+Olympic,7,0-19,309
+Olympic,7,20-39,397
+Olympic,7,40-59,214
+Olympic,7,60-79,70
+Olympic,7,>=80,5
+Olympic,8,0-19,281
+Olympic,8,20-39,424
+Olympic,8,40-59,205
+Olympic,8,60-79,69
+Olympic,8,>=80,6
+Olympic,9,0-19,269
+Olympic,9,20-39,421
+Olympic,9,40-59,235
+Olympic,9,60-79,77
+Olympic,9,>=80,11
+Olympic,10,0-19,327
+Olympic,10,20-39,448
+Olympic,10,40-59,215
+Olympic,10,60-79,89
+Olympic,10,>=80,7
+Olympic,11,0-19,245
+Olympic,11,20-39,361
+Olympic,11,40-59,184
+Olympic,11,60-79,77
+Olympic,11,>=80,8
+Olympic,12,0-19,264
+Olympic,12,20-39,376
+Olympic,12,40-59,241
+Olympic,12,60-79,76
+Olympic,12,>=80,8
+Pacific,1,0-19,339
+Pacific,1,20-39,427
+Pacific,1,40-59,235
+Pacific,1,60-79,99
+Pacific,1,>=80,11
+Pacific,2,0-19,254
+Pacific,2,20-39,369
+Pacific,2,40-59,228
+Pacific,2,60-79,96
+Pacific,2,>=80,8
+Pacific,3,0-19,339
+Pacific,3,20-39,433
+Pacific,3,40-59,283
+Pacific,3,60-79,140
+Pacific,3,>=80,16
+Pacific,4,0-19,325
+Pacific,4,20-39,455
+Pacific,4,40-59,267
+Pacific,4,60-79,100
+Pacific,4,>=80,8
+Pacific,5,0-19,319
+Pacific,5,20-39,407
+Pacific,5,40-59,290
+Pacific,5,60-79,112
+Pacific,5,>=80,6
+Pacific,6,0-19,278
+Pacific,6,20-39,383
+Pacific,6,40-59,249
+Pacific,6,60-79,86
+Pacific,6,>=80,14
+Pacific,7,0-19,336
+Pacific,7,20-39,398
+Pacific,7,40-59,248
+Pacific,7,60-79,100
+Pacific,7,>=80,9
+Pacific,8,0-19,359
+Pacific,8,20-39,367
+Pacific,8,40-59,254
+Pacific,8,60-79,107
+Pacific,8,>=80,10
+Pacific,9,0-19,291
+Pacific,9,20-39,367
+Pacific,9,40-59,222
+Pacific,9,60-79,98
+Pacific,9,>=80,4
+Pacific,10,0-19,344
+Pacific,10,20-39,417
+Pacific,10,40-59,268
+Pacific,10,60-79,105
+Pacific,10,>=80,10
+Pacific,11,0-19,296
+Pacific,11,20-39,345
+Pacific,11,40-59,228
+Pacific,11,60-79,95
+Pacific,11,>=80,12
+Pacific,12,0-19,294
+Pacific,12,20-39,381
+Pacific,12,40-59,272
+Pacific,12,60-79,102
+Pacific,12,>=80,12
+Rampart,1,0-19,281
+Rampart,1,20-39,354
+Rampart,1,40-59,176
+Rampart,1,60-79,49
+Rampart,1,>=80,5
+Rampart,2,0-19,231
+Rampart,2,20-39,362
+Rampart,2,40-59,164
+Rampart,2,60-79,57
+Rampart,2,>=80,7
+Rampart,3,0-19,325
+Rampart,3,20-39,410
+Rampart,3,40-59,230
+Rampart,3,60-79,61
+Rampart,3,>=80,8
+Rampart,4,0-19,282
+Rampart,4,20-39,440
+Rampart,4,40-59,218
+Rampart,4,60-79,61
+Rampart,4,>=80,6
+Rampart,5,0-19,310
+Rampart,5,20-39,410
+Rampart,5,40-59,205
+Rampart,5,60-79,65
+Rampart,5,>=80,3
+Rampart,6,0-19,295
+Rampart,6,20-39,363
+Rampart,6,40-59,229
+Rampart,6,60-79,69
+Rampart,6,>=80,6
+Rampart,7,0-19,288
+Rampart,7,20-39,361
+Rampart,7,40-59,183
+Rampart,7,60-79,70
+Rampart,7,>=80,8
+Rampart,8,0-19,279
+Rampart,8,20-39,371
+Rampart,8,40-59,197
+Rampart,8,60-79,59
+Rampart,8,>=80,5
+Rampart,9,0-19,284
+Rampart,9,20-39,331
+Rampart,9,40-59,182
+Rampart,9,60-79,74
+Rampart,9,>=80,7
+Rampart,10,0-19,275
+Rampart,10,20-39,429
+Rampart,10,40-59,209
+Rampart,10,60-79,69
+Rampart,10,>=80,7
+Rampart,11,0-19,264
+Rampart,11,20-39,355
+Rampart,11,40-59,184
+Rampart,11,60-79,60
+Rampart,11,>=80,9
+Rampart,12,0-19,230
+Rampart,12,20-39,376
+Rampart,12,40-59,200
+Rampart,12,60-79,62
+Rampart,12,>=80,7
+Southeast,1,0-19,288
+Southeast,1,20-39,311
+Southeast,1,40-59,179
+Southeast,1,60-79,69
+Southeast,1,>=80,5
+Southeast,2,0-19,230
+Southeast,2,20-39,298
+Southeast,2,40-59,164
+Southeast,2,60-79,57
+Southeast,2,>=80,2
+Southeast,3,0-19,300
+Southeast,3,20-39,383
+Southeast,3,40-59,254
+Southeast,3,60-79,75
+Southeast,3,>=80,4
+Southeast,4,0-19,272
+Southeast,4,20-39,425
+Southeast,4,40-59,201
+Southeast,4,60-79,65
+Southeast,4,>=80,1
+Southeast,5,0-19,298
+Southeast,5,20-39,424
+Southeast,5,40-59,260
+Southeast,5,60-79,77
+Southeast,5,>=80,1
+Southeast,6,0-19,322
+Southeast,6,20-39,475
+Southeast,6,40-59,265
+Southeast,6,60-79,75
+Southeast,6,>=80,4
+Southeast,7,0-19,274
+Southeast,7,20-39,420
+Southeast,7,40-59,218
+Southeast,7,60-79,77
+Southeast,7,>=80,7
+Southeast,8,0-19,289
+Southeast,8,20-39,398
+Southeast,8,40-59,241
+Southeast,8,60-79,85
+Southeast,8,>=80,4
+Southeast,9,0-19,292
+Southeast,9,20-39,373
+Southeast,9,40-59,239
+Southeast,9,60-79,54
+Southeast,9,>=80,5
+Southeast,10,0-19,278
+Southeast,10,20-39,412
+Southeast,10,40-59,212
+Southeast,10,60-79,60
+Southeast,10,>=80,5
+Southeast,11,0-19,265
+Southeast,11,20-39,349
+Southeast,11,40-59,208
+Southeast,11,60-79,63
+Southeast,11,>=80,5
+Southeast,12,0-19,285
+Southeast,12,20-39,447
+Southeast,12,40-59,240
+Southeast,12,60-79,57
+Southeast,12,>=80,3
+Southwest,1,0-19,193
+Southwest,1,20-39,430
+Southwest,1,40-59,202
+Southwest,1,60-79,78
+Southwest,1,>=80,5
+Southwest,2,0-19,206
+Southwest,2,20-39,482
+Southwest,2,40-59,221
+Southwest,2,60-79,80
+Southwest,2,>=80,7
+Southwest,3,0-19,214
+Southwest,3,20-39,573
+Southwest,3,40-59,238
+Southwest,3,60-79,87
+Southwest,3,>=80,6
+Southwest,4,0-19,238
+Southwest,4,20-39,531
+Southwest,4,40-59,239
+Southwest,4,60-79,97
+Southwest,4,>=80,12
+Southwest,5,0-19,245
+Southwest,5,20-39,548
+Southwest,5,40-59,236
+Southwest,5,60-79,81
+Southwest,5,>=80,10
+Southwest,6,0-19,237
+Southwest,6,20-39,515
+Southwest,6,40-59,253
+Southwest,6,60-79,112
+Southwest,6,>=80,16
+Southwest,7,0-19,219
+Southwest,7,20-39,506
+Southwest,7,40-59,213
+Southwest,7,60-79,82
+Southwest,7,>=80,15
+Southwest,8,0-19,247
+Southwest,8,20-39,567
+Southwest,8,40-59,200
+Southwest,8,60-79,100
+Southwest,8,>=80,8
+Southwest,9,0-19,268
+Southwest,9,20-39,560
+Southwest,9,40-59,219
+Southwest,9,60-79,109
+Southwest,9,>=80,11
+Southwest,10,0-19,231
+Southwest,10,20-39,694
+Southwest,10,40-59,306
+Southwest,10,60-79,104
+Southwest,10,>=80,8
+Southwest,11,0-19,230
+Southwest,11,20-39,532
+Southwest,11,40-59,234
+Southwest,11,60-79,89
+Southwest,11,>=80,8
+Southwest,12,0-19,214
+Southwest,12,20-39,577
+Southwest,12,40-59,277
+Southwest,12,60-79,82
+Southwest,12,>=80,10
+Topanga,1,0-19,121
+Topanga,1,20-39,331
+Topanga,1,40-59,207
+Topanga,1,60-79,88
+Topanga,1,>=80,9
+Topanga,2,0-19,142
+Topanga,2,20-39,306
+Topanga,2,40-59,208
+Topanga,2,60-79,79
+Topanga,2,>=80,14
+Topanga,3,0-19,161
+Topanga,3,20-39,334
+Topanga,3,40-59,166
+Topanga,3,60-79,77
+Topanga,3,>=80,14
+Topanga,4,0-19,158
+Topanga,4,20-39,316
+Topanga,4,40-59,187
+Topanga,4,60-79,71
+Topanga,4,>=80,9
+Topanga,5,0-19,169
+Topanga,5,20-39,413
+Topanga,5,40-59,228
+Topanga,5,60-79,69
+Topanga,5,>=80,10
+Topanga,6,0-19,141
+Topanga,6,20-39,335
+Topanga,6,40-59,248
+Topanga,6,60-79,83
+Topanga,6,>=80,13
+Topanga,7,0-19,136
+Topanga,7,20-39,343
+Topanga,7,40-59,223
+Topanga,7,60-79,78
+Topanga,7,>=80,12
+Topanga,8,0-19,126
+Topanga,8,20-39,337
+Topanga,8,40-59,235
+Topanga,8,60-79,89
+Topanga,8,>=80,8
+Topanga,9,0-19,140
+Topanga,9,20-39,311
+Topanga,9,40-59,216
+Topanga,9,60-79,77
+Topanga,9,>=80,11
+Topanga,10,0-19,126
+Topanga,10,20-39,382
+Topanga,10,40-59,159
+Topanga,10,60-79,68
+Topanga,10,>=80,11
+Topanga,11,0-19,139
+Topanga,11,20-39,338
+Topanga,11,40-59,176
+Topanga,11,60-79,85
+Topanga,11,>=80,9
+Topanga,12,0-19,142
+Topanga,12,20-39,334
+Topanga,12,40-59,211
+Topanga,12,60-79,80
+Topanga,12,>=80,12
+Van Nuys,1,0-19,192
+Van Nuys,1,20-39,283
+Van Nuys,1,40-59,228
+Van Nuys,1,60-79,74
+Van Nuys,1,>=80,1
+Van Nuys,2,0-19,177
+Van Nuys,2,20-39,251
+Van Nuys,2,40-59,199
+Van Nuys,2,60-79,74
+Van Nuys,2,>=80,2
+Van Nuys,3,0-19,189
+Van Nuys,3,20-39,288
+Van Nuys,3,40-59,205
+Van Nuys,3,60-79,64
+Van Nuys,3,>=80,5
+Van Nuys,4,0-19,201
+Van Nuys,4,20-39,299
+Van Nuys,4,40-59,259
+Van Nuys,4,60-79,73
+Van Nuys,4,>=80,9
+Van Nuys,5,0-19,174
+Van Nuys,5,20-39,301
+Van Nuys,5,40-59,236
+Van Nuys,5,60-79,100
+Van Nuys,5,>=80,10
+Van Nuys,6,0-19,171
+Van Nuys,6,20-39,319
+Van Nuys,6,40-59,218
+Van Nuys,6,60-79,77
+Van Nuys,6,>=80,9
+Van Nuys,7,0-19,149
+Van Nuys,7,20-39,301
+Van Nuys,7,40-59,229
+Van Nuys,7,60-79,67
+Van Nuys,7,>=80,10
+Van Nuys,8,0-19,152
+Van Nuys,8,20-39,362
+Van Nuys,8,40-59,246
+Van Nuys,8,60-79,91
+Van Nuys,8,>=80,8
+Van Nuys,9,0-19,157
+Van Nuys,9,20-39,325
+Van Nuys,9,40-59,258
+Van Nuys,9,60-79,79
+Van Nuys,9,>=80,9
+Van Nuys,10,0-19,179
+Van Nuys,10,20-39,349
+Van Nuys,10,40-59,216
+Van Nuys,10,60-79,75
+Van Nuys,10,>=80,4
+Van Nuys,11,0-19,149
+Van Nuys,11,20-39,309
+Van Nuys,11,40-59,257
+Van Nuys,11,60-79,73
+Van Nuys,11,>=80,7
+Van Nuys,12,0-19,172
+Van Nuys,12,20-39,354
+Van Nuys,12,40-59,224
+Van Nuys,12,60-79,87
+Van Nuys,12,>=80,6
+West LA,1,0-19,236
+West LA,1,20-39,294
+West LA,1,40-59,202
+West LA,1,60-79,101
+West LA,1,>=80,22
+West LA,2,0-19,201
+West LA,2,20-39,309
+West LA,2,40-59,182
+West LA,2,60-79,97
+West LA,2,>=80,13
+West LA,3,0-19,244
+West LA,3,20-39,305
+West LA,3,40-59,206
+West LA,3,60-79,118
+West LA,3,>=80,13
+West LA,4,0-19,280
+West LA,4,20-39,293
+West LA,4,40-59,195
+West LA,4,60-79,105
+West LA,4,>=80,19
+West LA,5,0-19,271
+West LA,5,20-39,318
+West LA,5,40-59,206
+West LA,5,60-79,121
+West LA,5,>=80,13
+West LA,6,0-19,283
+West LA,6,20-39,311
+West LA,6,40-59,194
+West LA,6,60-79,103
+West LA,6,>=80,18
+West LA,7,0-19,273
+West LA,7,20-39,310
+West LA,7,40-59,198
+West LA,7,60-79,102
+West LA,7,>=80,15
+West LA,8,0-19,268
+West LA,8,20-39,257
+West LA,8,40-59,194
+West LA,8,60-79,100
+West LA,8,>=80,18
+West LA,9,0-19,234
+West LA,9,20-39,241
+West LA,9,40-59,191
+West LA,9,60-79,95
+West LA,9,>=80,17
+West LA,10,0-19,235
+West LA,10,20-39,292
+West LA,10,40-59,167
+West LA,10,60-79,102
+West LA,10,>=80,18
+West LA,11,0-19,272
+West LA,11,20-39,280
+West LA,11,40-59,179
+West LA,11,60-79,118
+West LA,11,>=80,22
+West LA,12,0-19,255
+West LA,12,20-39,307
+West LA,12,40-59,203
+West LA,12,60-79,127
+West LA,12,>=80,10
+West Valley,1,0-19,255
+West Valley,1,20-39,247
+West Valley,1,40-59,226
+West Valley,1,60-79,80
+West Valley,1,>=80,13
+West Valley,2,0-19,251
+West Valley,2,20-39,245
+West Valley,2,40-59,157
+West Valley,2,60-79,82
+West Valley,2,>=80,14
+West Valley,3,0-19,258
+West Valley,3,20-39,252
+West Valley,3,40-59,208
+West Valley,3,60-79,97
+West Valley,3,>=80,9
+West Valley,4,0-19,254
+West Valley,4,20-39,269
+West Valley,4,40-59,242
+West Valley,4,60-79,104
+West Valley,4,>=80,16
+West Valley,5,0-19,244
+West Valley,5,20-39,257
+West Valley,5,40-59,234
+West Valley,5,60-79,93
+West Valley,5,>=80,15
+West Valley,6,0-19,231
+West Valley,6,20-39,262
+West Valley,6,40-59,228
+West Valley,6,60-79,109
+West Valley,6,>=80,16
+West Valley,7,0-19,233
+West Valley,7,20-39,295
+West Valley,7,40-59,205
+West Valley,7,60-79,90
+West Valley,7,>=80,11
+West Valley,8,0-19,237
+West Valley,8,20-39,302
+West Valley,8,40-59,208
+West Valley,8,60-79,102
+West Valley,8,>=80,14
+West Valley,9,0-19,233
+West Valley,9,20-39,278
+West Valley,9,40-59,206
+West Valley,9,60-79,101
+West Valley,9,>=80,13
+West Valley,10,0-19,276
+West Valley,10,20-39,308
+West Valley,10,40-59,201
+West Valley,10,60-79,95
+West Valley,10,>=80,18
+West Valley,11,0-19,239
+West Valley,11,20-39,300
+West Valley,11,40-59,210
+West Valley,11,60-79,97
+West Valley,11,>=80,16
+West Valley,12,0-19,246
+West Valley,12,20-39,270
+West Valley,12,40-59,252
+West Valley,12,60-79,127
+West Valley,12,>=80,13
+Wilshire,1,0-19,205
+Wilshire,1,20-39,360
+Wilshire,1,40-59,194
+Wilshire,1,60-79,96
+Wilshire,1,>=80,8
+Wilshire,2,0-19,218
+Wilshire,2,20-39,355
+Wilshire,2,40-59,182
+Wilshire,2,60-79,76
+Wilshire,2,>=80,9
+Wilshire,3,0-19,249
+Wilshire,3,20-39,385
+Wilshire,3,40-59,185
+Wilshire,3,60-79,90
+Wilshire,3,>=80,7
+Wilshire,4,0-19,211
+Wilshire,4,20-39,405
+Wilshire,4,40-59,195
+Wilshire,4,60-79,90
+Wilshire,4,>=80,10
+Wilshire,5,0-19,279
+Wilshire,5,20-39,354
+Wilshire,5,40-59,195
+Wilshire,5,60-79,80
+Wilshire,5,>=80,14
+Wilshire,6,0-19,213
+Wilshire,6,20-39,390
+Wilshire,6,40-59,188
+Wilshire,6,60-79,69
+Wilshire,6,>=80,10
+Wilshire,7,0-19,255
+Wilshire,7,20-39,339
+Wilshire,7,40-59,264
+Wilshire,7,60-79,79
+Wilshire,7,>=80,13
+Wilshire,8,0-19,231
+Wilshire,8,20-39,350
+Wilshire,8,40-59,218
+Wilshire,8,60-79,97
+Wilshire,8,>=80,4
+Wilshire,9,0-19,307
+Wilshire,9,20-39,333
+Wilshire,9,40-59,193
+Wilshire,9,60-79,55
+Wilshire,9,>=80,12
+Wilshire,10,0-19,316
+Wilshire,10,20-39,384
+Wilshire,10,40-59,206
+Wilshire,10,60-79,79
+Wilshire,10,>=80,17
+Wilshire,11,0-19,283
+Wilshire,11,20-39,325
+Wilshire,11,40-59,235
+Wilshire,11,60-79,76
+Wilshire,11,>=80,7
+Wilshire,12,0-19,372
+Wilshire,12,20-39,382
+Wilshire,12,40-59,219
+Wilshire,12,60-79,64
+Wilshire,12,>=80,9
