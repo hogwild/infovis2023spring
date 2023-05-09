@@ -14,7 +14,7 @@ Please complete the review by this Friday (May 12), Shanghai time. Thank you.
 
 Also, you may [click here](https://docs.google.com/spreadsheets/d/1vc1nMsNyUHo0PTrQ5dQWfy8lMZJwz4pnNeK5VVnkSWU/edit?usp=sharing){:target="_blank"} to get the whole list of projects. 
 
-## [Team 1: Video Games Sales Analysis](./team1/vediogame.html){:target="_blank"} 
+## [Team 1: Video Games Sales Analysis](./team1/index.html){:target="_blank"} 
 - Authors: Ran Xu, Yuchen Zhou
 - [Review the work](https://forms.gle/AnoaKrfpB1MJMBcFA){:target="_blank"} 
 
@@ -26,7 +26,7 @@ Also, you may [click here](https://docs.google.com/spreadsheets/d/1vc1nMsNyUHo0P
 - Authors: Ivana Li, Tianqing Yu 
 - [Review the work](https://forms.gle/QqkaqkmVqa9CjbPh7){:target="_blank"}
 
-## [Team 4: An Visualization of World Cup](./team4/mainpage/fp.html){:target="_blank"} 
+## [Team 4: An Visualization of World Cup](./team4/main.html){:target="_blank"} 
 - Authors: Zhenwen Zhang, Haohai Pang, Xiangjian Wu
 - [Review the work](https://forms.gle/TqzQG8DjAWLujmHDA){:target="_blank"}
 
