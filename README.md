@@ -50,7 +50,7 @@ Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrric
 - Authors: Skyler Chen, Ziying Yang
 - [Review the work](){:target="_blank"}
 
-## [Team 10: Story of EPL Teams Leicester's Road to Glory and Becoming the Premier League Champion](./team10/index.html){:target="_blank"} 
+## [Team 10: Story of EPL Teams Leicester's Road to Glory and Becoming the Premier League Champion](./team10/Leicester.html){:target="_blank"} 
 - Authors: Ming Xuan Wu
 - [Review the work](){:target="_blank"}
 
