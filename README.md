@@ -55,7 +55,7 @@ Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrric
 - [Review the work](){:target="_blank"}
 
 ## [Team 11: A Visualized Investigation into LPL & LCK 2023 Spring Playoffs Statistics](./team11/index.html){:target="_blank"} 
-- Authors: Ming Xuan Wu
+- Authors: Tang Sheng, Yuhong Wang
 - [Review the work](){:target="_blank"}
 
 ## [Team 12: Visualizing International Trade Flow between G20 Countries 2000-2020](./team12/index.html){:target="_blank"} 
