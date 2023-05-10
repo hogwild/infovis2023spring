@@ -15,7 +15,7 @@ Please complete the review by this Wednesday (May 10), Shanghai time. Thank you.
 Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrricBKRcA_XVICOFhwBy9pWnBaceYFlO64/edit?usp=sharing){:target="_blank"} to get the whole list of projects. 
 
 ## [Team 1: Market Overview Of Popular Video Game Platforms](./team1/index.html){:target="_blank"} 
-- Authors: Xiaoyi Guan, Yu Wang
+- Authors: Xiaoyi Guan, Yue Wang
 - [Review the work](https://forms.gle/WMpqWLx1cZkt6ziV9){:target="_blank"} 
 
 ## [Team 2: Understanding Global Suicide Trends](./team2/index.html){:target="_blank"} 
@@ -23,7 +23,7 @@ Also, you may [click here](https://docs.google.com/spreadsheets/d/1hMcUZ2KHmrric
 - [Review the work](https://forms.gle/DotdHKZ6nPsC3Skq9){:target="_blank"}
 
 ## [Team 3: What Are The Important Factors For Regional Economic Growth? ](./team3/index.html){:target="_blank"} 
-- Authors: Alex Zhang, Kaixin Mao, Yunzhe Sun 
+- Authors: Alex Zhang, Kaixin Mao, Wendy Shi  
 - [Review the work](https://forms.gle/fEXYYU1ZtuYaiWxo7){:target="_blank"}
 
 ## [Team 4: Can Owning A Pet Boost Your Mental Health? ](./team4/main.html){:target="_blank"} 
