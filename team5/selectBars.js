@@ -3,7 +3,7 @@ const MBTI = ["INFJ","ISFJ","INTJ","ISTJ","INFP",    "INTP",    "ISFP",    "ISTP
 const MUSICAL = ["danceability","energy","loudness",    "mode",    "speechiness",    "acousticness",    "liveness",    "valence",    "tempo",    "instrumentalness"  ];
 const MBTI1 = ["ESTP", "ESFP", "ENTP", "ENFP", "ESTJ", "ENTJ", "ESFJ", "ENFJ", "ISTP", "ISFP", "INTP", "INFP", "ISTJ", "INTJ", "ISFJ", "INFJ"]
 
-d3.csv("matrix1.csv").then(function (data) {
+d3.csv("https://hogwild.github.io/infovis2023spring/team5/matrix1.csv").then(function (data) {
   data.forEach(d => {
     d.value = +d.value
     d.variable = d.variable

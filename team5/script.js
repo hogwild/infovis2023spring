@@ -17,8 +17,8 @@ let viz = d3.select("#container").append("svg")
 
 
 // IMPORT DATA
-d3.json("countries.geojson").then(function (geoData) {
-  d3.csv("generated2.csv").then(function (incomingData) {
+d3.json("https://hogwild.github.io/infovis2023spring/team5/countries.geojson").then(function (geoData) {
+  d3.csv("https://hogwild.github.io/infovis2023spring/team5/generated2.csv").then(function (incomingData) {
 
     drawDefault();
 

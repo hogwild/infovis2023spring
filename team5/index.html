@@ -1,1 +1,87 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="MBTI&Spotify" content="width=device-width, initial-scale=1.0"><title>When MBTI Meets Spotify</title><link rel="stylesheet" href="https://hogwild.github.io/infovis2023spring/team5/style.css"><script src="https://d3js.org/d3.v5.min.js"></script><script defer="defer" src="main.js"></script><script defer="defer" src="main.js"></script></head><div id="wrapper"><body><h2><b>When MBTI Meets Spotify</b></h2><p class="intro">Myers-Briggs Type Indicator (MBTI) is currently one of the most popular personality tests around the globe. Initially inspired by Swiss psychiatrist Carl Jung, Katharine Cook Briggs and her daughter Isabel Briggs Myers further developed this test from the original theory to be a more accessible test to the general public.<br>Given the peaking popularity of the MBTI test among teenagers, we thus propose a visualization system that shows the global distribution of different traits (I/E, N/S, T/F, J/P). As is visualized below, the darker, the higher I/N/T/J value.<br><br>Trait <button id="button1">I/E</button> indicates “Attitudes“: introversion (I) / extraversion (E).<br>Trait <button id="button2">N/S</button> indicates “Perceiving Functions“: intuition (N) / sensation (S).<br>Trait <button id="button3">T/F</button> indicates “Judging Functions“: thinking (T) / feeling (F).<br>Trait <button id="button4">J/P</button> indicates “Lifestyle Preferences“: judging (J) /perception (P).</p><div id="container"></div><div id="tooltip"></div><br><br><p class="intro">Thanks to the dataset from Kaggle, Spotify musical preferences of different personality types for both explanatory purposes and recommendations are also visualized in our system. We juxtapose musical features of playlists created for different MBTI types, as well as give an overview of type distribution with regard to regions.</p><div id="root"></div><p id="bar-title">Compare between: <select id="selectButton"></select> and <select id="selectButton1"></select></p><div id="barchart"></div><br><p>Kaggle dataset: <a href="https://www.kaggle.com/code/rajjain/country-wise-mbti-personality">Country Wise MBTI Personality</a>, <a href="https://www.kaggle.com/datasets/xtrnglc/spotify-mbti-playlists">Spotify MBTI Playlists</a>.</p><p>Authors: Tian JIN (tj1059@nyu.edu), Shan LU (sl7766@nyu.edu), Jade ZHOU (yz6213@nyu.edu).</p><br><script src="https://hogwild.github.io/infovis2023spring/team5/script.js"></script><script src="https://hogwild.github.io/infovis2023spring/team5/selectBars.js"></script></body></div></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="MBTI&Spotify" content="width=device-width, initial-scale=1.0">
+    <title>When MBTI Meets Spotify</title>
+    <link rel="stylesheet" href="https://hogwild.github.io/infovis2023spring/team5/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+    <script defer src="main.js"></script>
+</head>
+
+<div id="wrapper">
+    <body>
+
+
+        <h2> <b> When MBTI Meets Spotify </b> </h2>
+    
+        <p class="intro">Myers-Briggs Type Indicator (MBTI) is currently one of the most popular personality tests around
+            the
+            globe. Initially inspired by Swiss psychiatrist Carl Jung, Katharine Cook Briggs and her daughter Isabel Briggs
+            Myers further developed this test from the original theory to be a more accessible test to the general public.
+            <br> Given the peaking popularity of the MBTI test among teenagers, we thus propose a visualization system that
+            shows
+            the
+            global distribution of different traits (I/E, N/S, T/F, J/P). As is visualized below, the
+            darker, the higher I/N/T/J value. <br>
+            <br>
+            Trait <button id="button1">I/E</button> indicates “Attitudes“: introversion (I) / extraversion
+            (E).<br>
+            Trait <button id="button2">N/S</button> indicates “Perceiving Functions“: intuition (N) / sensation
+            (S).<br>
+            Trait <button id="button3">T/F</button> indicates “Judging Functions“: thinking (T) / feeling (F).
+            <br>
+            Trait <button id="button4">J/P</button> indicates “Lifestyle Preferences“: judging (J) /perception
+            (P). </p>
+    
+    
+    
+    
+        <div id="container">
+        </div>
+    
+        <div id='tooltip'> </div>
+    
+    
+    
+        <!-- <h2> <b> When MBTI Meets Spotify </b> </h2> -->
+        <br>
+        <br>
+        <p class="intro">
+            Thanks to the dataset from Kaggle, Spotify musical preferences of different personality types for both
+            explanatory purposes and recommendations are also visualized in our system. We juxtapose musical
+            features of playlists created for different MBTI types, as well as give an overview of type distribution with
+            regard to regions.</p>
+    
+        <div id="root">
+        </div>
+        <!-- <select id="selectButton"></select>
+        <select id="selectButton1"></select> -->
+        <p id="bar-title"> Compare between:
+            <select id="selectButton"></select> and
+            <select id="selectButton1"></select>
+        </p>
+    
+        <div id='barchart'></div>
+        <br>
+    
+        <p>Kaggle dataset:
+            <a href="https://www.kaggle.com/code/rajjain/country-wise-mbti-personality">Country
+                Wise MBTI Personality</a>,
+            <a href="https://www.kaggle.com/datasets/xtrnglc/spotify-mbti-playlists">Spotify MBTI Playlists</a>.</p>
+    
+        <p>Authors: Tian JIN (tj1059@nyu.edu), Shan LU (sl7766@nyu.edu), Jade ZHOU (yz6213@nyu.edu).</p>
+        <br>
+        <!-- our main script: -->
+        <script type="text/javascript" src="https://hogwild.github.io/infovis2023spring/team5/script.js"></script>
+        <script type="text/javascript" src="https://hogwild.github.io/infovis2023spring/team5/selectBars.js"></script>
+    
+    
+    
+    </body>
+</div>
+</html>
+
